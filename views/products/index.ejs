@@ -1,0 +1,10 @@
+<!-- products/index.ejs -->
+
+<ul>
+  <% products.forEach((product) => { %>
+    <li>
+      <%= product.name %> - $<%= product.price %>
+    </li>
+  <%  }) %>
+</ul>
+
